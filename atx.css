@@ -27,7 +27,7 @@ text-align: center;
 display: inline-block;
 vertical-align: middle;
 line-height: 70px;
-width: 49%;
+width: 900px;
 height: 70px;
 margin-top: 10px;
 }
@@ -39,14 +39,20 @@ text-align: center;
 display: inline-block;
 vertical-align: middle;
 line-height: 70px;
-width: 49%;
+width: 900px;
 height: 70px;
 margin-top: 10px;
 
 }
 .a3 {
 background-color:black;
-width: 2%;
+color:white;
+float: left;
+text-align: center;
+display: inline-block;
+vertical-align: middle;
+line-height: 70px;
+width: 10px;
 height: 70px;
 margin-top: 10px;
 }
