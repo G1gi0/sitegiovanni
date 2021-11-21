@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calc App</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+<h1 style="font-size: 70px">Nossos Preços</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+  <center><h1>Simulador de Compra</h1></center>
+  <div id="app">
+    O n1 digitado foi: {{ n1 }} <br />
+    O n2 digitado foi: {{ n2 }} <br />
+
+
+    Soma: {{n1+n2}} <br />
+    Subtração: {{n1-n2}} <br />
+    Multiplicação: {{n1*n2}} <br />
+    Divisão: {{n1/n2}} <br />
+
+
+
+<input v-model.number="n1">
+<input v-model.number="n2">
+
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        n1: 2,
+        n2: 5
+      }
+    })
+  </script>
+</body>
+</html>
