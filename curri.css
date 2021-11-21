@@ -1,3 +1,10 @@
-div{
+.div1{
 	background-color: seagreen;
+	height: 100px;
+	width: 450px;
+}
+.div2{
+	background-color: seagreen;
+	height: 100px;
+	width: 450px;
 }
