@@ -6,13 +6,15 @@
 </head>
 <body>
 
-<h1 style="font-size: 70px">Nossos Preços</h1>
+<h1 style="font-size: 70px">Nossos Preços</h1><br>
 
+<h1 style="color: red;">R$ Gasolina Aditivada = 4,83</h1><br> 
 
+<h1 style="color: red;">R$ Gasolina Comum = 4,82</h1><br>
 
+<h1 style="color: red;">R$ Disel = 2,56</h1><br>
 
-
-
+<h1 style="color: red;">R$ Disel S10 = 3,07 </h1><br>
 
 
 
@@ -20,20 +22,21 @@
 
 
   <center><h1>Simulador de Compra</h1></center>
+
   <div id="app">
-    O n1 digitado foi: {{ n1 }} <br />
-    O n2 digitado foi: {{ n2 }} <br />
+    
+<h2>Digite a quantidade em litros:</h2>
+    <input v-model.number="n1"><br>
+<h2>
+
+    Gasolina Aditivada: {{n1*4,83}} <br />
+    Gasolina Comum: {{n1*4,82}} <br />
+    Disel: {{n1*2,56}} <br />
+    Disel S10: {{n1*3,07}} <br />
+</h2>
 
 
-    Soma: {{n1+n2}} <br />
-    Subtração: {{n1-n2}} <br />
-    Multiplicação: {{n1*n2}} <br />
-    Divisão: {{n1/n2}} <br />
 
-
-
-<input v-model.number="n1">
-<input v-model.number="n2">
 
   </div>
 
@@ -42,7 +45,6 @@
       el: '#app',
       data: {
         n1: 2,
-        n2: 5
       }
     })
   </script>
